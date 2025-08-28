@@ -91,3 +91,34 @@ body.no-scroll {
 /* header - account */
 #header .inner .account { }
 #header .inner .account .account-list { display: flex; justify-content: center; align-items: center; gap: 0 14px; }
+
+/* main slide */
+#container {  }
+#container #main-wrap {}
+
+#main-wrap .main { }
+#main-wrap .main .inner { }
+#main-wrap .main .inner .visual { height: 50%; border: 1px solid black;}
+#main-wrap .main .inner .visual .slide { overflow: hidden; }
+#container .main .inner .visual .slide img  { width : 100%; }
+
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }

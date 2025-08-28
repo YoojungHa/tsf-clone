@@ -63,5 +63,8 @@ if (gnbBtn && gnbNav) {
   });
 });
 
+// main-slide
+$('#main-slide').load('include/main_slide.html');
+
 // footer
 $('footer').load('include/footer.html');
