@@ -63,8 +63,12 @@ if (gnbBtn && gnbNav) {
   });
 });
 
-// main-slide
-$('#main-slide').load('include/main_slide.html');
+$('#main-slide').load('include/main_slide.html', function() {
+    var swiper = new Swiper(".mySwiper", {
+        pagination: { el: ".swiper-pagination", type: "fraction" },
+        navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+    });
+});
 
 // footer
 $('footer').load('include/footer.html');
