@@ -99,14 +99,16 @@ body.no-scroll {
 #main-wrap .main { }
 #main-wrap .main .inner { }
 #main-wrap .main .inner .visual { height: 50%; border: 1px solid black;}
-#main-wrap .main .inner .visual .slide { overflow: hidden; }
-#container .main .inner .visual .slide img  { width : 100%; }
+/* #main-wrap .main .inner .visual .slide { overflow: hidden; }
+#container .main .inner .visual .slide img  { width : 100%; } */
 
 .swiper {
       width: 100%;
-      height: 100%;
+      height: 400px;
     }
 
+
+    
     .swiper-slide {
       text-align: center;
       font-size: 18px;
