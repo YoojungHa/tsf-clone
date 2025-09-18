@@ -5,7 +5,7 @@
 /* reset */
 * {margin: 0; padding: 0;}
 li {list-style: none;}
-a {color: #222; text-decoration: none;}
+a {color: #000; text-decoration: none;}
 img {vertical-align: top; border: 0;}
 table {border-collapse: collapse;}
 caption, legend {width: 0; height: 0; overflow: hidden; font-size: 0; text-indent: -9999px; position: absolute; left: -9999px; color: transparent;}
@@ -16,3 +16,8 @@ button {background: none; border: 0; cursor: pointer;}
 .autoH:after {content: ""; display: block; clear: both;}
 
 
+.bold { font-weight: 700; }
+.text-h3 { font-size: 60px; margin-bottom: 12px;}
+.text-t3 { font-size: 14px; line-height: 140%; }
+.text-t5 { font-size: 20px; line-height: 110%; }
+.text-t6 { font-size: 22px; line-height: 110%; }

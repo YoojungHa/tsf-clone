@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
-.bold { font-weight: 700;}
-.text-t3 { font-size: 14px; line-height: 140%; }
-.text-t5 { font-size: 20px; line-height: 110%; }
-.text-t6 { font-size: 22px; line-height: 110%; }
+
 
 body.no-scroll {
   overflow: hidden;
@@ -113,6 +110,7 @@ cubic-bezier(0.4, 0.31, 0.19, 1);
 
 
     .swiper-slide {
+      position: relative;
       text-align: center;
       font-size: 18px;
       background: #444;
@@ -132,4 +130,10 @@ cubic-bezier(0.4, 0.31, 0.19, 1);
       object-fit: cover;
     }
 
-.swiper-button-prev { background: url(image/arrow_prev.png); }
+.swiper-button-prev:after { background: url(/image/arrow_prev.png) !important; z-index: 33;}
+
+.swiper-slide .txt { position: absolute; top: 60%; left: 2%; text-align: left;}
+.swiper-slide .txt p { margin-bottom: 40px; }
+
+
+.btn { padding: 15px 20px; background: #fff; border-radius: 30px; text-transform: uppercase; font-weight: 700; height: auto; }
