@@ -67,6 +67,11 @@ $('#main-slide').load('include/main_slide.html', function() {
     var swiper = new Swiper(".mySwiper", {
         pagination: { el: ".swiper-pagination", type: "fraction" },
         navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+        loop:true,
+        autoplay: {
+          delay: 3000, // 3초마다 슬라이드 넘김
+          disableOnInteraction: false, // 버튼 클릭해도 autoplay 안 멈춤
+        },
     });
 });
 
